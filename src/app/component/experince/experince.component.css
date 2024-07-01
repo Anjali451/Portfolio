@@ -1,0 +1,322 @@
+.container-fluid{
+    background: #fff;
+}
+
+.topbar{
+    background-color: #379777;
+    font-weight: 800;
+    padding: 1rem 1rem;
+
+}
+
+.roww{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#banner{
+    width: 10rem;
+    height: auto;
+}
+
+.content{
+    background: linear-gradient(132deg, #3572EF, #591BC5,), linear-gradient(132deg, #7E8EF1, #615EFC,);
+    animation: Gradient 3s linear infinite;
+    border-radius: 1rem;
+    height: 13rem;
+    width: 15rem;
+    margin-right: -10rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    padding-top: 1px;
+}
+
+@keyframes Gradient {
+    0% {
+        background: linear-gradient(132deg, #83B4FF,  #591BC5);
+    }
+    20% {
+        background: linear-gradient(132deg, #7E8EF1,  #9195F6);
+    }
+    40% {
+        background: linear-gradient(132deg, #7E8EF1,  #5AB2FF);
+    }
+    60% {
+        background: linear-gradient(132deg, #387ADF,  #50C4ED);
+    }
+    50% {
+        background: linear-gradient(132deg, #67C6E3,  #378CE7);
+    }
+    100% {
+        background: linear-gradient(132deg, #591BC5, #3ABEF9);
+    }
+  }
+
+.row{
+    margin: 2rem auto;
+}
+
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+    .container-fluid{
+        width: 16rem;
+        margin-left: -1rem;
+    }
+
+    #banner{
+        width: 16rem;
+        height: 10rem;
+        margin-left: -10px;
+    }
+
+    .content{
+        width: 15rem;
+        height: 15rem;
+        font-size: small;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .container-fluid{
+        width: 18rem;
+    }
+
+    #banner{
+        width: 17rem;
+        height: 10rem;
+        margin-left: -10px;
+    }
+
+    .content{
+        margin-left: -5px;
+        margin-top: 1rem;
+        width: 17rem;
+        height: 20rem;
+        font-size: small;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    .container-fluid{
+        width: 18rem;
+    }
+
+    #banner{
+        width: 17rem;
+        height: 10rem;
+        margin-left: -10px;
+    }
+
+    .content{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        width: 16rem;
+        height: 20rem;
+        font-size: small;
+    }
+
+}
+
+@media only screen and (min-width: 400px) {
+    h3{
+        margin-left: 9rem;
+    }
+
+    .content{
+        height: 20rem;
+        width: 20rem;
+        margin-left: 4px;
+    }
+
+    .col-4{
+        padding: auto 10px;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+    .container-fluid{
+        width: 20rem;
+    }
+    #banner{
+        width: 20rem;
+        height: 10rem;
+        margin-left: -10px;
+    }
+
+    .content{
+        margin-left: 7px;
+        margin-top: 2rem;
+        height: 17rem;
+        width: 18rem;
+    }
+}
+
+@media only screen and (min-width: 428px) {
+
+    .content{
+        margin-left: 9px;
+        height: 20rem;
+        width: 18rem;
+    }
+
+    .col-4{
+        padding: auto 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container-fluid{
+        width: 40rem;
+    }
+
+    .topbar{
+        margin-left: 2rem;
+    }
+
+    #banner{
+        width: 35rem;
+        height: 20rem;
+        margin-left: 35px;
+    }
+
+    .content{
+        height: 15rem;
+        width: 32rem;
+        font-size: large;
+        margin-left: 6rem;
+    }
+
+    .col-4{
+        padding: auto 10px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .container-fluid{
+        width: 45rem;
+    }
+
+    #banner{
+        width: 37rem;
+        height: 20rem;
+        margin-left: 5rem;
+    }
+
+    .content{
+        height: 15rem;
+        width: 37rem;
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .container-fluid{
+        width: 45rem;
+    }
+
+    #banner{
+        width: 35rem;
+        height: 20rem;
+        margin-left: 5rem;
+    }
+
+    .content{
+        height: 15rem;
+        width: 37rem;
+    }
+
+    .col-4{
+        padding: auto 10px;
+    }
+}
+
+
+@media only screen and (min-width: 884px) {
+    .container-fluid{
+        width: 50rem;
+    }
+
+    #banner{
+        width: 39rem;
+        height: 20rem;
+        margin-left: 5rem;
+    }
+
+    .content{
+        height: 15rem;
+        width: 37rem;
+        margin-left: 8rem;
+    }
+
+    .col-4{
+        padding: auto 10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    .container-fluid{
+        width: 65rem;
+        margin-left: 6rem;
+    }
+
+    #banner{
+        width: 30rem;
+        height: 18rem;
+        margin-left: 10px;
+        margin-top: 2rem;
+        margin-bottom: 9rem;
+    }
+
+    .content{
+        height: 15rem;
+        width: 37rem;
+        margin-left: 27rem;
+        margin-top: -25rem;
+    }
+
+    .col-4{
+        padding: auto 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .container-fluid{
+        width: 75rem;
+        margin-left: 10rem;
+    }
+
+    .topbar{
+        margin-left: -1px;
+    }
+
+    #banner{
+        width: 25rem;
+        height: 18rem;
+        margin-left: 10px;
+        margin-top: 4rem;
+        margin-bottom: 9rem;
+    }
+
+    .content{
+        height: 15rem;
+        width: 42rem;
+        margin-left: 27rem;
+        margin-top: -25rem;
+    }
+
+    .col-4{
+        padding: auto 10px;
+    }
+}

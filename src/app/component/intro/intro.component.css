@@ -1,0 +1,565 @@
+.container-fluid {
+    height: 100vh;
+    width: auto;
+    background-image: url("../../../../public/assets/introBack.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 52rem;
+    margin-left: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 15rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    padding-top: 2rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+#read {
+    margin-left: 5rem;
+}
+
+@media screen and (min-width: 320px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 20rem 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 18rem;
+    }
+
+    h1 {
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    p {
+        width: 10rem;
+        padding-top: 1rem;
+        margin-left: -16px;
+    }
+
+    #read {
+        margin-top: -3rem;
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-top: 4rem;
+        margin-left: -7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 25rem 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: white;
+        padding-top: 3rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        padding-top: 3rem;
+    }
+
+    #read {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    #contact {
+        margin-top: -4rem;
+        margin-left: 10rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: 16rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 25rem 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: white;
+        padding-top: 1rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        padding-top: 3rem;
+    }
+
+    #read {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    #contact {
+        margin-top: -4rem;
+        margin-left: 10rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: 14rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 25rem 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: white;
+        padding-top: 1rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        padding-top: 5rem;
+    }
+
+    #read {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    #contact {
+        margin-top: -4rem;
+        margin-left: 10rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: 13rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 412px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 25rem 670px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 2rem;
+
+    }
+
+    p {
+        width: 23rem;
+        margin-top: -2rem;
+    }
+
+    #read {
+        margin-top: 1rem;
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-top: -4rem;
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -3rem;
+    }
+}
+
+
+@media screen and (min-width: 414px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 25rem 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 2rem;
+
+    }
+
+    p {
+        width: 23rem;
+        margin-top: -2rem;
+    }
+
+    #read {
+        margin-top: 1rem;
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-top: -4rem;
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -3rem;
+    }
+}
+
+
+@media screen and (min-width: 428px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 26rem 570px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 2rem;
+
+    }
+
+    p {
+        width: 23rem;
+        margin-top: -2rem;
+    }
+
+    #read {
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: 27rem;
+        margin-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 50rem 770px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 2rem;
+        width: 43rem;
+
+    }
+
+    p {
+        width: 43rem;
+        margin-top: -2rem;
+    }
+
+    #read {
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -1rem;
+        margin-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 800px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 50rem 970px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 2rem;
+        width: 43rem;
+
+    }
+
+    p {
+        width: 43rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+    #read {
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -1rem;
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 50rem 870px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 2rem;
+        width: 43rem;
+
+    }
+
+    p {
+        width: 43rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+    #read {
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -1rem;
+        margin-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 884px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 54rem 870px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 1rem;
+        width: 53rem;
+
+    }
+
+    p {
+        width: 43rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+    #read {
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -1rem;
+        margin-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 80rem 570px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 2rem;
+        width: 80rem;
+
+    }
+
+    p {
+        width: 43rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+    #read {
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -1rem;
+        margin-left: 4rem;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .container-fluid {
+        background: bottom #4B2274;
+        background-image: url("../../../../public/assets/introBack.gif");
+        background-size: 99rem 610px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 20rem;
+    }
+
+    h1 {
+        color: #fff;
+        padding-top: 1rem;
+        width: 99rem;
+
+    }
+
+    p {
+        width: 43rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+
+    #read {
+        margin-left: -1rem;
+    }
+
+    #contact {
+        margin-left: 7rem;
+    }
+
+    .btnContainer {
+        height: 4rem;
+        margin-top: -1rem;
+        margin-left: 4rem;
+    }
+}
