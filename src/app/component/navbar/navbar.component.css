@@ -1,0 +1,166 @@
+.container{
+    background: #667BC6;
+    margin-left: -10px;
+    border: 3px solid ;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #667BC6 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.img{
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border: 5px solid wheat;
+    border-radius: 50%; 
+}
+
+.options{
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.option{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.option:hover{
+    transform: scale(1.1);
+    color: #040f3d;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) {
+    .container{
+        width: 22vw;
+    }
+
+    img{
+        width: 55px;
+        height: 55px;
+        margin-left: -55px;
+    }
+
+    .options{
+        margin-left: -8px;
+        width: 18vw;
+    }
+    .option{
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 360px) {
+    .container{
+        width: 22vw;
+    }
+    img{
+        width: 55px;
+        height: 55px;
+        margin-left: -3rem;
+    }
+
+    .options{
+        margin-left: -6px;
+        width: 18vw;
+    }
+    .option{
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 20vw;
+    }
+    img{
+        width: 115px;
+        height: 115px;
+        margin-left: -42px;
+    }
+
+    .options{
+        margin-left: -6px;
+        width: 18vw;
+    }
+    .option{
+        font-size: large;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 18vw;
+    }
+
+   
+    img{
+        width: 115px;
+        height: 115px;
+        margin-right: -6rem;
+    }
+
+    .options{
+        margin-left: -4px;
+        width: 16vw;
+    }
+    .option{
+        font-size: large;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 16vw;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        margin-left: -3rem;
+    }
+
+    .options{
+        margin-left: -6px;
+        width: 14vw;
+    }
+    .option{
+        font-size: large;
+        font-weight: 600;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .container{
+        width: 16vw;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        margin-left: 1rem;
+    }
+
+    .options{
+        margin-left: -6px;
+        width: 14vw;
+    }
+    .option{
+        font-size: large;
+        font-weight: 600;
+    }
+}
+

@@ -1,0 +1,16 @@
+.container-fluid{
+    display: flex;
+}
+
+.navContainer{
+    width: 18vw;
+    height: 100vh;
+    margin-left: 0;
+    position: fixed;
+}
+
+.contentContainer{
+    background: #4B2274;
+    width: 84vw;
+    margin-left: 4rem;
+}
