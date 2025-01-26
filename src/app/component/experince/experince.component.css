@@ -96,9 +96,9 @@ img{
     }
 
     .content{
-        margin-left: -5px;
+        margin-left: 6px;
         margin-top: 1rem;
-        width: 17rem;
+        width: 16rem;
         height: 20rem;
         font-size: small;
     }
@@ -119,6 +119,27 @@ img{
     .content{
         margin-top: 1rem;
         margin-left: 1rem;
+        width: 16rem;
+        height: 20rem;
+        font-size: small;
+    }
+
+}
+
+@media only screen and (min-width: 390px) {
+    .container-fluid{
+        width: 30rem;
+    }
+
+    #banner{
+        width: 17rem;
+        height: 10rem;
+        margin-left: -10px;
+    }
+
+    .content{
+        margin-top: 1rem;
+        margin-left: 2rem;
         width: 16rem;
         height: 20rem;
         font-size: small;
